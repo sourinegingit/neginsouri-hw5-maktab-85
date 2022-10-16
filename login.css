@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: pink;
+}
+.container{
+    
+    background: linear-gradient(#7876F5, #9E43E9);
+    width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: (autofit,minmax(100px,500px));
+}
+.avatore{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    border-radius: 45%;
+}
+.form{
+    
+    display: grid;
+    /* gap: 10px; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form input{
+    
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    
+    background-color: transparent;
+    outline: none;
+    gap: 10px;
+    border: none;
+    
+}
+input#password,input#username{
+   width: 350px; 
+   box-shadow:0 1px 0 white;
+}
+.end{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#login-btn{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 39%;
+    width: 93%;
+    outline: none;
+    height: 46px;
+    border: 1px solid transparent;
+  }
+  #forget{
+    text-decoration: none;
+    color: pink;
+  }
+  .rememberme{
+    margin: 10px;
+  }
