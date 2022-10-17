@@ -49,6 +49,7 @@ input#password,input#username{
    width: 350px; 
    box-shadow:0 1px 0 white;
 }
+
 .end{
     display: grid;
     align-items: center;
@@ -69,4 +70,8 @@ input#password,input#username{
   }
   .rememberme{
     margin: 10px;
+  }
+  .form input i{
+    flex: 1;
+    text-align: center;
   }
