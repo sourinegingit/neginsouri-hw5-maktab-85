@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    
+}
+body{
+    width: 100%;
+    background-color: #FC93F8;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #A959CE;
+    width: 250px;
+    height: 350px;
+    border-radius: 15%;
+    margin:50px auto;
+    padding: 5px 40px;
+}
+.avatore{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 5px 5px;
+    font-size: 15px;
+}
+#img{
+    width: 50px;
+    height: 50px;
+    border-radius: 55%;
+    margin: 15px;
+    
+}
+div.text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.picture{
+    display: flex;
+    width: 100px;
+    margin: 10px;
+    gap: 10px;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.picture div{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.avatore img{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
