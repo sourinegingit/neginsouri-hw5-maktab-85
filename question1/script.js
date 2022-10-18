@@ -9,7 +9,6 @@
 //     };
 // console.log(user.sayHello());
 
-
 // second way
 // let user={
 //     name:"jhon",
@@ -20,57 +19,44 @@
 // // document.write(call);
 // console.log(call)
 
-
 // --------------------
 // question 2
-
 // first part
-
-
-
-
 // var Obj = {
 //     count: 0,
-    
-//     increase: function() {  
-//      return this.count +=1;   
+
+//     increase: function() {
+//      return this.count +=1;
 //     }
 // }
 // console.log(Obj.increase());
-// console.log(Obj.increase());console.log(Obj.increase());
-
-
-
-
+// console.log(Obj.increase());
+// console.log(Obj.increase());
 
 // second part
 // var Obj = {
 //     count: 10,
-    
-//     decrease: function() {  
-//      return this.count -=1;   
+
+//     decrease: function() {
+//      return this.count -=1;
 //     }
 // }
 // console.log(Obj.decrease());
-// console.log(Obj.decrease());console.log(Obj.decrease());
-
-
-
-
-
+// console.log(Obj.decrease());
+// console.log(Obj.decrease());
 
 // third part
 // var Obj = {
 //         count: 0,
 //         number: 10,
-    // increase: function() {  
-    //      return this.count +=1;   
-    //     }
-//     decrease: function() {  
-//      return this.number -=1;   
+// increase: function() {
+//      return this.count +=1;
+//     }
+//     decrease: function() {
+//      return this.number -=1;
 //     },
-//         reset: function() {  
-//         //  return this.count; 
+//         reset: function() {
+//         //  return this.count;
 //         return this.number;
 //         }
 //     }
@@ -80,31 +66,43 @@
 //     console.log(Obj.increase());
 //     console.log(Obj.increase());
 
-
-
-
-
 //part four
-var Obj = {
-        count: 0,
-        number: 10,
-        result:0,
-        decrease: function() {  
-        return this.number -=1;   
-        },
-        read:function(){
-            for(let i=0;i<this.number.length;i++){
-                result+=i;
-                return this.result;
-            }
-        }
-    };
-    console.log(Obj.decrease());
-    console.log(Obj.decrease());
-    console.log(Obj.decrease());
-    console.log(Obj.decrease());
-    console.log(Obj.decrease().read());
+// var Obj = {
+//         count: 0,
+//     number: 10,
+//     result:0,
+//     increase: function() {
+//              return this.count +=1;
+//             },
+//         decrease: function() {
+//          return this.number -=1;
+//         },
+//             reset: function() {
+//              return this.result;
+//             // return this.number;
+//             },
+//         read:function(){
+//         let length=0;
+//         for(let key in Obj){
+//             if(Obj.hasOwnProperty(key)){
+//                 return ++length;
+//             }
 
+//         }
+//     }
+// };
+// console.log(Obj.decrease());
+// console.log(Obj.decrease());
+// console.log(Obj.reset());
+// console.log(Obj.decrease());
+// console.log(Obj.decrease());
+// console.log(Obj.read());
+// console.log(Obj.read());
+// console.log(Obj.increase());
+// console.log(Obj.increase());
+// console.log(Obj.increase());
+// console.log(Obj.read());
+// console.log(Obj.read());
 
 
 
@@ -163,7 +161,7 @@ var Obj = {
 // do{input=prompt("enter user information");
 // // console.log(input);
 // if(input==""||input==null){
-//    break; 
+//    break;
 // }
 // const index=input.split(",");
 // array.push({
@@ -179,8 +177,6 @@ var Obj = {
 //     return people;
 // }
 // console.log(sort());
-
-
 
 // -------------------
 
@@ -204,7 +200,5 @@ var Obj = {
 
 // ----------------------
 // question 6 is login
-
-
 
 // question7
